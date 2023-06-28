@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+
+    background: #080808 ;
+    color : white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height : 100px;
+    background-color: rgba(241, 10, 10, 0.151);
+
+
+}
+#list1{
+    text-decoration: none;
+    margin: 0 23px;
+    color: white;
+    padding: 12px;
+    border-radius: 3px;
+    
+}
+#list1:hover{
+    background-color: rgb(240, 8, 8);
+    
+    
+}
+.navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#sid{
+    letter-spacing: 2.5px;
+}
